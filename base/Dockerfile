@@ -5,6 +5,7 @@ RUN apk update \
  && apk add --no-cache \
     ca-certificates \
     make \
+    tzdata \
  && rm -rf /var/cache/apk/* \
  && rm -rf /tmp/*
 

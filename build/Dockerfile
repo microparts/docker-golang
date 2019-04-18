@@ -7,6 +7,7 @@ RUN apk update \
     git \
     make \
     openssh-client \
+    tzdata \
  && rm -rf /var/cache/apk/* \
  && rm -rf /tmp/* \
  && mkdir /root/.ssh/
