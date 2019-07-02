@@ -6,6 +6,7 @@ RUN apk update \
     ca-certificates \
     make \
     tzdata \
+    curl \
  && rm -rf /var/cache/apk/* \
  && rm -rf /tmp/*
 
