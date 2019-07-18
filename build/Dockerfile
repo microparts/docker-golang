@@ -1,4 +1,4 @@
-FROM golang:1.12.1-alpine
+FROM golang:1.12-alpine
 MAINTAINER Sergey Gladkovskiy <smgladkovskiy@gmail.com>
 
 RUN apk update \
@@ -9,7 +9,6 @@ RUN apk update \
     openssh-client \
     tzdata \
  && rm -rf /var/cache/apk/* \
- && rm -rf /tmp/* \
- && mkdir /root/.ssh/
+ && rm -rf /tmp/*
 
 WORKDIR /app
