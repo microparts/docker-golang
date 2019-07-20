@@ -1,12 +1,12 @@
 FROM alpine
 MAINTAINER Sergey Gladkovskiy <smgladkovskiy@gmail.com>
 
-RUN apk update \
+RUN apk update && apk upgrade \
  && apk add --no-cache \
     ca-certificates \
+    curl \
     make \
     tzdata \
-    curl \
  && rm -rf /var/cache/apk/* \
  && rm -rf /tmp/*
 

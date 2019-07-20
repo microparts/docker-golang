@@ -1,7 +1,7 @@
 FROM golang:1.12-alpine
 MAINTAINER Sergey Gladkovskiy <smgladkovskiy@gmail.com>
 
-RUN apk update \
+RUN apk update && apk upgrade \
  && apk add --no-cache \
     curl \
     git \
