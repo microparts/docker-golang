@@ -1,5 +1,4 @@
 FROM alpine
-MAINTAINER Sergey Gladkovskiy <smgladkovskiy@gmail.com>
 
 RUN apk update && apk upgrade \
  && apk add --no-cache \

@@ -1,5 +1,4 @@
 FROM golang:1.12-alpine
-MAINTAINER Sergey Gladkovskiy <smgladkovskiy@gmail.com>
 
 RUN apk update && apk upgrade \
  && apk add --no-cache \

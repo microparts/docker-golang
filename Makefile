@@ -2,10 +2,10 @@ IMAGE_LINT = microparts/docker-golang-lint
 IMAGE_TEST = microparts/docker-golang-test
 IMAGE_BUILD = microparts/docker-golang-build
 IMAGE_BASE = microparts/docker-golang-base
-VERSION_LINT = 1.0.0
-VERSION_TEST = 1.0.1
-VERSION_BUILD = 1.0.1
-VERSION_BASE = 1.0.1
+VERSION_LINT = 1.0.1
+VERSION_TEST = 1.0.2
+VERSION_BUILD = 1.0.2
+VERSION_BASE = 1.0.2
 GOLANGCI_VERSION = v1.17.1
 
 build-lint-image:
