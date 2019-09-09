@@ -38,3 +38,11 @@ linters:
     - unparam
     - unused
     - varcheck
+
+linters-settings:
+  govet:
+    composites: false
+
+issues:
+  exclude:
+    - composites
