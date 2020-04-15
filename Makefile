@@ -4,7 +4,7 @@ IMAGE_BUILD = microparts/docker-golang-build
 IMAGE_BASE = microparts/docker-golang-base
 VERSION_LINT = 1.0.1
 VERSION_TEST = 1.0.2
-VERSION_BUILD = 1.1.0
+VERSION_BUILD = 1.1.1
 VERSION_BASE = 1.0.2
 GOLANGCI_VERSION = v1.24.0
 
